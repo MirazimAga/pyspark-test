@@ -23,3 +23,20 @@ It was created as a test assignment and showcases operations such as creating Da
 ```bash
 git clone https://github.com/username/pyspark-test.git
 cd pyspark-test
+Create and activate a virtual environment / Создайте и активируйте виртуальное окружение:
+
+python -m venv .venv
+# Windows
+.venv\Scripts\activate
+# macOS/Linux
+source .venv/bin/activate
+
+Install dependencies / Установите зависимости:
+
+pip install pyspark jupyter
+
+Run Jupyter Notebook / Запустите Jupyter Notebook:
+
+jupyter notebook
+
+Open pyspark_notebook.ipynb and explore the code / Откройте pyspark_notebook.ipynb и изучайте код.
